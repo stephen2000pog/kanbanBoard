@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-export interface Task {
-  id?: string;
-  title: string;
-  description: string;
-}
+export const environment = {
+  production: true
+};
